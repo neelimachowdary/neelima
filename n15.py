@@ -1,6 +1,6 @@
-a,b=input().split()
-a=int(a)
-b=int(b)
-for i in range(a+1,b):
+m,n=input().split()
+m=int(m)
+n=int(n)
+for i in range(m+1,n):
     if i%2==0:
         print(i,end=' ')
